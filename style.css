@@ -1,9 +1,18 @@
+/*Reset CSS*/
 * {
     margin: 0;
     padding: 0;
 }
 
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
+
 body {
+    height: 100vh;
+    /*para o elemento filho não sair da borda do elemento pai*/
+    box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
 }
